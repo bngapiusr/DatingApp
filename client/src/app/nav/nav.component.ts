@@ -21,4 +21,10 @@ login(){
     console.log(error);
   })
 }
+
+logout()
+{
+  this.loggedIn = false;
+}
+
 }
